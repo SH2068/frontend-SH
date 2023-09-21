@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>웹 페이지 구조 연습</title>
+</head>
+<body>
+    <!-- 
+        header
+
+        nav(순서가 없는 리스트 - 텍스트 링크)
+
+        main
+        - article
+        - aside(이미지는 이미지링크)
+
+        footer
+     -->
+     <Header>
+        <h1>Header</h1>
+    </Header>
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Our Team</a></li>
+            <li><a href="#">Projects</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+        <label for="Search">
+            <input type="search" placeholder="Search query">
+            <input type="submit" value="Go!">
+        </label>
+    </nav>
+    <main>
+        <h2>Article heading</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Donec a diam lectus. Set sit amet ipsum mauris. Maecens congue ligula as quam viverra nec consecteturant hendrerit. Donec et mollis dolor. Praesent et diam eget libero egestas mattis sit amet vitae augue. Nam tincidunt congue enim, ut porta lorem lacinia consectetur.</p>
+
+        <article>
+            <h2>Subsection</h2>
+            <p>Donec ut librero sed accu vehicula ultricies a non tortor. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aenean ut gravida lorem. Ut turpis felis, pulvinar a semper sed, adipiscing id dolor.</p>
+            <p>Pelientesque auctor nisi id mangna consequat sagittis. Curabitur dapibus, enim sit amet elit pharetra tincidunt feugiat nist imperdiet. Ut novallis libero in urna ultrices accumsan. Donet sed odio eros.</p>
+        </article>
+
+        <article>
+            <h2>Another subsection</h2>
+            <p>Donec viverra mi quis quam pulvinar at malesuada arcu rhoncus. Cum soclis natoque penatibus et manis dis parturient montes, nascetur ridiculus mus. In rutrum accumsan ultricies. Mauris vitae nisi at sem facilisis semper ac in est.</p>
+            <p>Vivamus fermentum semper porta. Nunc diam velit, adipscing ut tristique vitae sagittis vel odio. Maecenas convallis ullamcorper ultricied. Curabitur ornare, ligula semper consectetur sagittis, nisi diam iaculis velit, is fringille sem nunc vet mi.</p>
+        </article>
+    </main>
+    <footer>
+        <h2>Related</h2>
+        <img src="../images/images-folder.jpg" alt="dog" width="100px">
+        <img src="../images/images-folder.jpg" alt="dog" width="100px">
+        <img src="../images/images-folder.jpg" alt="dog" width="100px">
+        <img src="../images/images-folder.jpg" alt="dog" width="100px">
+        <p>&copy; 2023 company Name</p>
+    </footer>
+</body>
+</html>
