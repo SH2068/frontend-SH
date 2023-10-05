@@ -1,0 +1,17 @@
+p {
+    color: blue;
+}
+
+#important {
+    color: red;
+}
+
+.notice {
+    font-weight: bold;
+}
+
+li {
+    color: green;
+}
+
+h2 {}

@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HTML 복습</title>
+    <link rel="stylesheet" href="../HTMLPractice/styles.css">
 </head>
 <body>
     <!-- 
@@ -16,29 +17,32 @@
      </header>
      
      <main>
-         <div style="width: 500px;">
+        <section></section>
             <img src="../../HTML/images/Lotte.jpg" alt="롯데 자이언츠로고" width="100px;" height="150">
             <h2>John Doe</h2>
-     </div>
-
-     <p>
-     Email:
-     <a href="#">john.doe@example.com</a>
-    </p>
-
+            <p>
+            Email:
+            <a href="mailto:john.doe@example.com">john.doe@example.com</a>
+           </p>
+        </section>
+        
+        <section>
     <h2>Education & Work Experience</h2>
-    <section>
         <ul>
             <li>MSc in Computer Science, XYZ University, 2018-2020</li>
-            <li>Software Developer, ABC Copr, 2020-present</li>
+            <li>Software Developer, ABC Corp, 2020-present</li>
         </ul>
     </section>
     
+    <section>
     <h2>Certifications & Awards</h2>
     <ol type="A">
         <li>Certified Python Developer,2019</li>
         <li>Best Employee of the Year, ABC Corp,2021</li>
     </ol>
+    </section>
+    
+    <section>
     <h2>Contact Form</h2>
     <fieldset>
         <legend>Your Information</legend>
@@ -46,15 +50,18 @@
         <br />
         <input type="text" id="name" placeholder="Enter your name" required>
         <br/>
+       
         <label for="Email">Email:</label>
         <br />
         <input type="email" id="Email" placeholder="Enter your email">
         <br />
+        
         <label for="Message">Message:</label>
         <br />
-        <input type="text" id="Message" placeholder="Enter your message">
+        <textarea id="Message" name="Message" placeholder="Enter your message">
+        <input type="submit" value="submit">
     </fieldset>
-    <input type="submit" value="Submit">
+    </section>
     </main>
     
 </body>
