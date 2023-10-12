@@ -22,12 +22,34 @@ p {
     line-height: 1.6%;
     letter-spacing: 1.2px;
     word-spacing: 2.4px;
+    text-indent: 40px;
 }
 
-ul {
+ul, ol {
     color: brown;
     font-size: 16px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    margin: 8px;
     
+}
+
+ul li, ol li {
+    text-transform: uppercase;
+    margin-bottom: 8px;
+}
+
+a {
+    color: purple;
+    font-size: 16px;
+    text-decoration: none;
+    letter-spacing: 0.8px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 1px 1px 2px black;
+}
+
+a:hover {
+    color:red;
+}
+
+a:visited {
+    color: gray
 }
