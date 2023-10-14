@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML & CSS 복습</title>
+    <link rel="stylesheet" href="styleanother.css">
+</head>
+<body>
+    <div class="header">
+        <div class="header-inner">
+            <h1>Welcome to My Website</h1>
+        </div>
+    </div>
+    <div class="nav">
+        <nav id="navbar">
+            <ul class="navmenu">
+                <li><a href="#">Section 1</a></li>
+                <li><a href="#">Section 2</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div class="section-wrap">
+        <div class="section01-wrap">
+            <div class="section1-1">Section 1</div>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Header 1</th>
+                        <th>Header 2</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Data 1</td>
+                        <td>Data 2</td>
+                    </tr>
+                </tbody>
+            </table>
+            <img src="../../../HTML/images/Lotte.jpg" alt="img01">
+        </div>
+        <div class="section02-wrap">
+            <div class="section2-1"><h3>Section 2</h3></div>
+            <img src="#" alt="Example image">
+        </div>
+    </div>
+
+    <div class="form-wrap">
+        <form class="form-padding">
+            <fieldset>
+                <legend class="form-box">Personal Information</legend>
+                <div class="UserName">
+                    <label for="username">Name:</label>
+                    <br />
+                    <input type="text" id="username" name="username" required autofocus />
+                    <br />
+                </div>
+                <div class="UserPW">
+                    <label for="pw">Password:</label>
+                    <br />
+                    <input type="password" id="pw" name="pw" required>
+                    <br />
+                </div>
+                <div class="UserEmail">
+                    <label for="Email">Email:</label>
+                    <br />
+                    <input type="email" id="Email" name="Email" required>
+                    <br />
+                </div>
+
+                <div class="Like">
+                    <label for="likethis">Do you like this form?</label>
+                </div>
+                <div class="checkbox">
+                    <input type="radio" value="Yes" name="like" required>Yes
+                    <br />
+                    <input type="radio" value="No" name="Dislike">No
+                    <br />
+                </div>
+                <div class="Comments-wrap">
+                    <label for="Comments">Comments:</label>
+                    <br/>
+                    <textarea name="Comments" id="Comments" cols="30" rows="10"></textarea>
+                </div>
+                <div class="submit-button">
+                    <input type="submit" value="Submit">
+                </div>
+            </fieldset>
+        </form>
+    </div>
+
+</body>
+</html>
