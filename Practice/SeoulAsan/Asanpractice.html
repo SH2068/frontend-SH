@@ -67,9 +67,453 @@
                     <legend>검색</legend>
                     <label class="tts" for="topSCh">검색어 입력</label>
                     <p class="search-text">검색어를 입력하세요 </p>
+                    <div class="bottomsch">
+                        <input type="text" placeholder="검색어를 입력하세요." autocomplete="off" id="topSCh" name="sch">
+                        <a href="#" class="fieldsetschbtn">
+                            <img src="images/필드셋돋보기.png" alt="검색">
+                        </a>
+                        <div class="autocomplte">
+                            <a href="#" class="autosch">자동완성 펼치기</a>
+                        </div>
+                        <div>&nbsp;</div>
+                    </div>
                 </fieldset>
             </div>
         </form>
+    </div>
+    <!-- 아산병원 진료과/안내 -->
+    <div class="gnbwrap">
+        <div class="gnbbox">
+            <h1>
+                <a href="https://www.amc.seoul.kr/asan/main.do">
+                    <img src="images/아산메인이미지.png" alt="서울아산병원로고">
+                </a>
+            </h1>
+            <ul id="gnb">
+                <li class="menu-01">
+                    <a href="https://www.amc.seoul.kr/asan/staff/base/staffBaseInfoList.do">의료진/진료과</a>
+                </li>
+                <li class="menu-02">
+                    <a href="https://www.amc.seoul.kr/asan/reservation/main.do">진료예약/안내</a>
+                </li>
+                <li class="menu-03">
+                    <a href="https://www.amc.seoul.kr/asan/healthinfo/disease/diseaseSubmain.do">건강정보</a>
+                </li>
+                <li class="menu-04">
+                    <a href="https://www.amc.seoul.kr/asan/issuepayguide/certificate/certificate.do">고객서비스</a>
+                </li>
+                <li class="menu-05">
+                    <a href="https://www.amc.seoul.kr/asan/academy/event/eventList.do">의학교육</a>
+                </li>
+                <li class="menu-06">
+                    <a href="https://www.amc.seoul.kr/asan/hospitalstory/realstory/realStoryList.do">병원이야기</a>
+                </li>
+                <li class="menu-07">
+                    <a href="https://www.amc.seoul.kr/asan/hospitalinfo.review.founding.sp">병원소개</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!-- headerwrap -->
+    <!-- navbar -->
+    <div id="innercontent">
+        <div class="allwrap">
+            <!-- 시각적(visual) -->
+            <div class="main-visual">
+                <div class="swiper-image" id="swiper"></div>
+            </div>
+            <!-- 통합검색 -->
+            <div class="search_all">
+                <div class="input_search">
+                    <label>통합검색</label>
+                    <input type="search" title="검색어를 입력해주세요." placeholder="검색어를 입력해주세요.">
+                </div>
+            </div>
+            <!-- 주요서비스 -->
+            <!-- 통합검색관련 -->
+            <div class="Mainserv">
+                <h1 class="title-h1">주요 서비스</h1>
+                <div class="service01">
+                    <ul>
+                        <li>
+                            <a href="https://www.amc.seoul.kr/asan/staff/base/staffBaseInfoList.do">의료진 찾기</a>
+                        </li>
+                        <li>
+                            <a href="https://www.amc.seoul.kr/asan/departments/deptListTypeA.do">진료과 찾기</a>
+                        </li>
+                        <li>
+                            <a href="https://www.amc.seoul.kr/asan/reservation/main.do">진료예약</a>
+                        </li>
+                        <li>
+                            <a href="https://www.amc.seoul.kr/asan/reservation/main.do">첫방문 고객 예약 상담</a>
+                        </li>
+                        <li>
+                            <a href="#">나의차트</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="service02">
+                    <ul>
+                        <li>
+                            <a href="https://www.amc.seoul.kr/asan/issuepayguide/certificate/certificate.do">증명서(진단서, 소견서 등) 출력</a>
+                        </li>
+                        <li>
+                            <a href="https://www.amc.seoul.kr/asan/issuepayguide/dutyrecordcopy/dutyRecordCopy.do">의무기록 및 영상CD 발급</a>
+                        </li>
+                        <li>
+                            <a href="https://www.amc.seoul.kr/asan/issuepayguide.dutyrecordcopy.dutyRecordCopy04.sp">동의서, 위임장 약식 다운로드</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!-- 전화예약 및 문의 -->
+            <div class="Infor">
+                <div class="leftbox">
+                    <div class="telbox">
+                        전화예약 및 문의
+                        <span>1688-7575</span>
+                    </div>
+                    <ul class="Hospital_info">
+                        <li>
+                            <a href="https://cancer.amc.seoul.kr/asan/depts/cancer/K/deptMain.do" target="_blank">암병원</a>
+                            <span>첫방문 고객 상담 : 02-3010-1300</span>
+                        </li>
+                        <li>
+                            <a href="https://child.amc.seoul.kr/asan/depts/child/K/deptMain.do" target="_blank">어린이병원</a>
+                            <span>첫방문 고객 상담 : 02-3010-1230</span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="rightbox">
+                    <div class="Reservation">
+                        <div class="healthtel">
+                            <a href="https://health.amc.seoul.kr/health/main.do" target="_blank">건강증진센터</a>
+                            <span>상담 및 예약 02-3010-5000</span>
+                        </div>
+                        <ul class="PgBtn">
+                            <li>
+                                <a href="https://health.amc.seoul.kr/health/personal/informationMain.do" target="_blank">개인 프로그램</a>
+                            </li>
+                            <li>
+                                <a href="https://health.amc.seoul.kr/health/corporate/program.do" target="_blank">법인 프로그램</a>
+                            </li>
+                            <li>
+                                <a href="#" target="_blank">건강검진 예약 신청</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <ul class="anotherSite">
+                        <li>
+                            <a href="http://recruit.amc.seoul.kr/recruit/main.do" target="_blank">의사직/일반직 채용</a>
+                        </li>
+                        <li>
+                            <a href="https://funeral.amc.seoul.kr/asan/depts/funeral/K/deptMain.do" target="_blank">빈소현황/사이버 조문</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!-- 건강 이야기 -->
+            <div class="healtharea">
+                <div class="healthstory">
+                    <h1>건강 이야기</h1>
+                    <div class="leftbox">
+                        <div class="healthwrap">
+                            <h2>
+                                <a href="https://www.amc.seoul.kr/asan/healthtv/video/videoSubmain.do">건강TV</a>
+                            </h2>
+                            <!-- 슬라이더 -->
+                            <div class="box01">
+                                <div class="health-swiper">
+                                    <div class="swiper-wrap"></div>
+                                    <div class="health-swiper-next"></div>
+                                    <div class="health-swiper-end"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Encyclopedia(백과) -->
+                        <ul class="pedia">
+                            <li>
+                                <a href="https://www.amc.seoul.kr/asan/healthinfo/disease/diseaseSubmain.do">질환백과</a>
+                            </li>
+                            <li>
+                                <a href="https://www.amc.seoul.kr/asan/healthinfo/symptom/symptomSubmain.do">증상백과</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="rightbox">
+                        <div class="healthwrap">
+                            <h2>
+                                <a href="https://news.amc.seoul.kr/news/con/list.do?prMenuOne=T43002&prMenuTwo=T43002001" target="_blank">건강정보</a>
+                            </h2>
+                            <div class="healthbox">
+                                <div class="swiper01">
+                                    <div class="swiper-wrap01"></div>
+                                    <div class="swiper-wrap-next"></div>
+                                    <div class="swiper-wrap-end"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- 백과 -->
+                        <ul class="pedia">
+                            <li>
+                                <a href="https://www.amc.seoul.kr/asan/healthinfo/management/managementSubmain.do">검사/시술/수술정보</a>
+                            </li>
+                            <li>
+                                <a href="https://www.amc.seoul.kr/asan/healthinfo/druginfo/drugInfo.do">의약품 정보</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="newsarea">
+                <div class="leftbox">
+                    <div class="notice">
+                        <h2>
+                            <a href="https://www.amc.seoul.kr/asan/information/notice/noticeList.do">소식/공지</a>
+                        </h2>
+                        <ul class="List">
+                            <li>
+                                <a href="https://www.amc.seoul.kr/asan/information/notice/noticeDetail.do?noticeId=12210">서울앗안병원 갤러리 2024년 전시 신청</a>
+                            </li>
+                            <li>
+                                <a href="https://www.amc.seoul.kr/asan/information/notice/noticeDetail.do?noticeId=12208">코로나19 예방을 위한 내원객 협조 안내</a>
+                                <span>2023.XX.XX</span>
+                            </li>
+                            <li>
+                                <a href="https://www.amc.seoul.kr/asan/information/notice/noticeDetail.do?noticeId=12207">서울 아산병원 정보보호 인증</a>
+                                <span>2023.XX.XX</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- Announcement(공지) -->
+                    <p class="Ancm">
+                        <a href="https://www.amc.seoul.kr/asan/outcomes.AGS.sp">
+                            <img src="images/의료질지표.png" alt="">
+                        </a>
+                    </p>
+                </div>
+                <div class="rightbox">
+                    <div class="Newsbox">
+                        <h2>
+                            <a href="https://news.amc.seoul.kr/news/main.do" target="_blank">뉴스</a>
+                        </h2>
+                        <ul class="List">
+                            <li>
+                                <a href="https://news.amc.seoul.kr/news/con/detail.do?cntId=6844" target="_blank">서울아산병원, 승모판막 클립시술 국내 첫 100례</a>
+                                <span>2023.XX.XX</span>
+                            </li>
+                            <li>
+                                <a href="https://news.amc.seoul.kr/news/con/detail.do?cntId=6836" target="_blank">캄보디아 환자 초청 진료</a>
+                                <span>2023.XX.XX</span>
+                            </li>
+                            <li>
+                                <a href="https://news.amc.seoul.kr/news/con/detail.do?cntId=6831" target="_blank">방사성의약품으로 암진단 · 치료하는 '테라노스틱스' ..</a>
+                                <span>2023.XX.XX</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <p class="Ancm">
+                        <a href="https://news.amc.seoul.kr/news/main.do" target="_blank">
+                            <img src="images/아산병원뉴스룸.png" alt="">
+                        </a>
+                    </p>
+                </div>
+            </div>
+            <div class="SNS">
+                <h1>서울아산병원 SNS</h1>
+                <ul class="SNSIcon">
+                    <li>
+                        <a href="https://www.facebook.com/AMC.SEOUL" target="_blank" title="서울아산병원 페이스북 바로가기">
+                            <img src="images/페이스북로고.png" alt="서울아산병원 페이스북 바로가기">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.instagram.com/amc_seoul/" target="_blank" title="서울아산병원 인스타그램 바로가기">
+                            <img src="images/인스타그램로고.png" alt="서울아산병원 인스타그램 바로가기">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.youtube.com/user/AsanMedicalCenter" target="_blank" title="서울아산병원 유튜브 바로가기">
+                            <img src="images/유튜브로고.png" alt="서울아산병원 유튜브 바로가기">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://blog.naver.com/amc_seoul" target="_blank" title="서울아산병원 네이버 블로그 바로가기">
+                            <img src="images/네이버로고.png" alt="서울아산병원 블로그 바로가기">
+                        </a>
+                    </li>
+                    <!-- 네이버TV / 카카오 -->
+                    <li>
+                        <a href="https://tv.naver.com/healthinsight" title="서울아산병원 NAVER TV 바로가기" target="_blank">
+                            <img src="images/네이버TV.png" alt="서울아산병원 NAVER TV 바로가기">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://story.kakao.com/ch/amc16887575/" title="서울아산병원 카카오스토리 바로가기" target="_blank">
+                            <img src="images/카카오스토리.png" alt="서울아산병원 카카오스토리 바로가기">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://post.naver.com/amc_seoul" title="서울아산병원 네이버 포스트 바로가기" target="_blank">
+                            <img src="images/네이버 포스트.png" alt="서울아산병원 네이버 포스트 바로가기">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://tv.kakao.com/channel/54832/video" title="서울아산병원 KAKAO TV 바로가기" target="_blank">
+                            <img src="images/카카오TV.png" alt="서울아산병원 KAKAO TV 바로가기">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="swiper-Replace">
+                <img src="images/슬라이더대체용이미지.png" alt="">
+            </div>
+        </div>
+        <div id="Footerwrap">
+            <div class="innerwrap">
+                <div class="footer01">
+                    <p class=""foot-logo>
+                        <img src="images/footlogo.png" alt="서울아산병원 로고">
+                    </p>
+                    <address>
+                        05505 서울 특별시 송파구 올림픽로 43길 88 서울아산병원
+                        <br />
+                        TEL 1688-7575 /
+                        <a href="#">webmaster@amc.seoul.kr</a>
+                        <br />
+                        Copyright@2014 by Asan Medical Center. All Rights reserved.
+                    </address>
+                </div>
+                <ul class="menulink">
+                    <li>
+                        <a href="https://www.amc.seoul.kr/asan/footer/patientRight.do">환자권리장전</a>
+                    </li>
+                    <li>
+                        <!-- 칼라는 오렌지로(추후 CSS작업대비 메모용) -->
+                        <a href="https://www.amc.seoul.kr/asan/footer/personalInfo.do">개인정보처리방침</a>
+                    </li>
+                    <li>
+                        <a href="https://www.amc.seoul.kr/asan/footer/agreement.do">이용약관</a>
+                    </li>
+                    <li>
+                        <a href="https://www.amc.seoul.kr/asan/footer/medicalPolicy.do">의료운용방침</a>
+                    </li>
+                    <li>
+                        <a href="https://www.amc.seoul.kr/asan/footer/nonpay.do">비급여진료비</a>
+                    </li>
+                    <li>
+                        <a href="https://www.amc.seoul.kr/asan/issuepayguide/dutyrecordcopy/dutyRecordCopy.do">의무기록사본발급안내</a>
+                    </li>
+                    <li>
+                        <a href="https://www.amc.seoul.kr/asan/issuepayguide/checkdocumentforgery/checkDocumentForgery.do">위변조문서확인</a>
+                    </li>
+                    <li>
+                        <a href="https://www.amc.seoul.kr/asan/footer/emailRefusal.do">이메일 주소수집거부</a>
+                    </li>
+                    <li>
+                        <a href="https://939.co.kr/asan/" target="_blank">원격지원서비스</a>
+                    </li>
+                    <!-- 마지막 -->
+                    <li>
+                        <a href="https://www.amc.seoul.kr/asan/custom/faq/hpFaqList.do">홈페이지이용문의</a>
+                    </li>
+                </ul>
+                <div class="footer02">
+                    <ul>
+                        <li>
+                            <label class="GR01" for="group01">진료과</label>
+                            <select class="select" id="group01">
+                                <!-- 간략하게 보기위한 2개의 예시
+                                필요하다면 추후 추가예정 -->
+                                <option value="0">진료과</option>
+                                <option value="0">----진료과----</option>
+                            </select>
+                            <a href="#">
+                                <img src="images/바로가기버튼.gif" alt="">
+                            </a>
+                        </li>
+                        <li>
+                            <label for="group02" class="GR02">재단 및 재단산하병원</label>
+                            <select class="select" id="group02">
+                                <option value="0">재단 및 재단산하병원</option>
+                                <option value="#">아산사회복지재단</option>
+                            </select>
+                            <a href="#">
+                                <img src="images/바로가기버튼.gif" alt="">
+                            </a>
+                        </li>
+                        <li>
+                            <label for="group03" class="GR03">센터/클리닉/기타</label>
+                            <select class="select" id="group03">
+                                <option value="0">센터/클리닉/연구원/기타</option>
+                                <option value="0">----센터----</option>
+                            </select>
+                            <a href="#">
+                                <img src="images/바로가기버튼.gif" alt="">
+                            </a>
+                        </li>
+                        <li>
+                            <label for="group04" class="GR04">관련기관</label>
+                            <select class="select" id="group04">
+                                <option value="0">관련기관</option>
+                                <option value="0">아산생명과학연구원</option>
+                            </select>
+                            <a href="">
+                                <img src="images/바로가기버튼.gif" alt="">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <ul>
+                    <li class="icon001">
+                        <a href="https://www.facebook.com/AMC.SEOUL" title="서울아산병원 페이스북 바로가기" target="_blank">
+                            <span>서울아산병원 페이스북</span>
+                        </a>
+                    </li>
+                    <li class="icon002">
+                        <a href="https://www.instagram.com/amc_seoul/" title="서울아산병원 인스타그램 바로가기" target="_blank">
+                            <span>서울아산병원 인스타그램</span>
+                        </a>
+                    </li>
+                    <li class="icon003">
+                        <a href="https://www.youtube.com/user/AsanMedicalCenter" title="서울아산병원 유튜브 바로가기" target="_blank">
+                            <span>서울아산병원 유튜브</span>
+                        </a>
+                    </li>
+                    <li class="icon004">
+                        <a href="https://blog.naver.com/amc_seoul" title="서울아산병원 네이버 블로그 바로가기" target="_blank">
+                            <span>서울아산병원 네이버 블로그</span>
+                        </a>
+                    </li>
+                    <li class="icon005">
+                        <a href="https://twitter.com/AMC_SEOUL" title="서울아산병원 트위터 바로가기" target="_blank">
+                            <span>서울아산병원 트위터</span>
+                        </a>
+                    </li>
+                    <li class="icon006">
+                        <a href="https://tv.naver.com/healthinsight" title="서울아산병원 NAVER TV 바로가기" target="_blank">
+                            <span>서울아산병원 NAVER TV</span>
+                        </a>
+                    </li>
+                    <li class="icon007">
+                        <a href="https://story.kakao.com/ch/amc16887575/" title="서울아산병원 카카오스토리 바로가기" target="_blank">
+                            <span>서울아산병원 카카오스토리</span>
+                        </a>
+                    </li>
+                    <li class="icon008">
+                        <a href="https://post.naver.com/amc_seoul" title="서울아산병원 네이버 포스트 바로가기" target="_blank">
+                            <span>서울아산병원 네이버 포스트</span>
+                        </a>
+                    </li>
+                    <li class="icon009">
+                        <a href="https://tv.kakao.com/channel/54832/video" title="서울아산병원 KAKAO TV 바로가기" target="_blank">
+                            <span>서울아산병원 KAKAO TV</span>
+                        </a>
+                    </li>
+                </ul>
+
+            </div>
+        </div>
     </div>
 </body>
 </html>
