@@ -1,0 +1,18 @@
+.MainHeader {
+    background-color: #444444;
+    width: 100%;
+    max-width: 100%;
+}
+
+.selectBox {
+    display: flex;
+    justify-content: center;
+    
+}
+
+ul li {
+    display: flex;
+    list-style-type: none;
+}
+
+
