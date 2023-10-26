@@ -1,18 +1,23 @@
 .MainHeader {
     background-color: #444444;
-    width: 100%;
-    max-width: 100%;
+    width: 1200px;
+    height: 38px;
 }
 
-.selectBox {
+/* .selectBox {
     display: flex;
     justify-content: center;
-    
-}
+} */
 
-ul li {
+.navibar {
     display: flex;
     list-style-type: none;
+    float: right;
+    margin-top: -35px;
+}
+
+.navibar li {
+    margin-left: 10px;
 }
 
 
