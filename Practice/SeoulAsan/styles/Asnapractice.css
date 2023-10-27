@@ -1,7 +1,17 @@
+* {
+    margin: 0;
+}
+
+body {
+    position: relative;
+    display: block;
+}
+
 .MainHeader {
     background-color: #444444;
-    width: 1200px;
+    min-width: 1200px;
     height: 38px;
+    margin: 0 auto;
 }
 
 /* .selectBox {
@@ -13,11 +23,35 @@
     display: flex;
     list-style-type: none;
     float: right;
-    margin-top: -35px;
+    margin-top: -20px;
 }
 
 .navibar li {
     margin-left: 10px;
+    
 }
 
+
+li a {
+    color: white;
+    text-decoration: none;
+}
+
+.choose_lang {
+    background-color: #777777;
+}
+
+.btn_lang {
+    margin-left: 10px;
+}
+
+.lang {
+    padding: 5px 0 5px;
+    list-style: none;
+
+}
+
+.searchbtn img {
+    margin-top: -13px;
+}
 
