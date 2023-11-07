@@ -1,0 +1,212 @@
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+}
+
+/* 상단 로그인 / 네비 */
+.mainHeader {
+  display: flex;
+  justify-content: center;
+  background-color: #444444;
+  width: 100%;
+  position: absolute;
+  height: 40px;
+}
+
+.selectbox {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  margin-left: 700px;
+}
+
+.selectbox > div > a {
+  text-decoration: none;
+  font-size: 14px;
+  color: white;
+}
+
+/* 네비게이션 로고 */
+.logo {
+  display: flex;
+  /* justify 복습겸 설정 space-around / 기존 center */
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: 170px;
+  gap: 50px;
+  font-size: 20px;
+  font-weight: 550;
+}
+
+.menu a {
+  color: black;
+  text-decoration: none;
+}
+
+.bnr {
+  display: flex;
+  width: 100%;
+  background-image: url(../images/main.jpg);
+  height: 450px;
+  background-repeat: no-repeat;
+  /* 사이즈 조정 (위 이미지url 안맞을시 사용 한 수정법) */
+  background-size: 100% 450px;
+  position: absolute;
+}
+
+/* 검색영역 */
+.search01 {
+  display: flex;
+  background-color: #009999;
+  width: 100%;
+  height: 75px;
+  justify-content: center;
+  align-items: center;
+  top: 450px;
+  position: relative;
+}
+
+.search01-1 {
+  display: flex;
+  border-radius: 10px;
+}
+
+.search01-1 > label {
+  color: white;
+  font-size: 15px;
+  margin-top: 10px;
+}
+
+.search01-1 > input {
+  border-radius: 50px;
+  /* 기존 검은색 테두리 존재 */
+  /* 테두리없애는거에 1픽셀 솔리드 같은색상으로 해결 */
+  border: 1px solid #009999;
+  height: 40px;
+  width: 400px;
+  margin-left: 20px;
+}
+
+.main {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  flex-direction: column;
+  position: absolute;
+  top: 700px;
+  border-bottom: 1px solid #ececec;
+}
+
+.main-header {
+  text-align: center;
+  font-size: 18px;
+}
+
+.serv01 {
+  display: flex;
+  width: 1000px;
+  height: 150px;
+  justify-content: center;
+}
+
+.service0101 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #cdcdcd;
+  width: 200px;
+  height: 150px;
+}
+
+.service0101 a {
+  display: flex;
+  text-decoration: none;
+  margin-top: 60px;
+  color: black;
+  font-size: 15px;
+}
+
+#serv1-1 {
+  /* html에서 img를 넣어봤으나 수정이 힘들어 CSS url로 해결 */
+  background-image: url(../images/의료진찾기이미지.png);
+  background-size: 100%;
+  border: 1px solid #f9f9f9;
+  border-radius: 10px 0 0 10px;
+}
+
+#serv1-2 {
+  background-image: url(../images/진료과찾기.png);
+  background-size: 100%;
+  border: 1px solid #f9f9f9;
+}
+
+#serv1-3 {
+  background-image: url(../images/진료예약.png);
+  background-size: 100%;
+  border: 1px solid #f9f9f9;
+}
+
+#serv1-4 {
+  background-image: url(../images/상담원연결.png);
+  background-size: 100%;
+  border: 1px solid #f9f9f9;
+}
+
+#serv1-5 {
+  background-image: url(../images/나의차트이미지.png);
+  background-size: 100%;
+  border: 1px solid #f9f9f9;
+  border-radius: 0 10px 10px 0;
+}
+
+.serv02 {
+  display: flex;
+  justify-content: center;
+  margin: 30px;
+}
+
+.service0102 {
+  border: 1px solid #009999;
+  display: flex;
+  width: 250px;
+  border-radius: 10px;
+  background-color: #009999;
+  justify-content: center;
+  align-items: center;
+  padding: 0 0 0 30px;
+  width: 300px;
+  height: 80px;
+}
+
+.service0102 a {
+  text-decoration: none;
+  color: white;
+}
+
+#serv2-1 {
+  background-image: url(../images/증명서출력이미지.png);
+  background-repeat: no-repeat;
+  background-position: 250px;
+  justify-content: left;
+  border: 1px solid #f9f9f9;
+}
+
+#serv2-2 {
+  background-image: url(../images/의무기록이미지.png);
+  background-repeat: no-repeat;
+  background-position: 250px;
+  justify-content: left;
+  border: 1px solid #f9f9f9;
+}
+
+#serv2-3 {
+  background-image: url(../images/동의서다운로드.png);
+  background-repeat: no-repeat;
+  background-position: 250px;
+  justify-content: left;
+}

@@ -4,8 +4,121 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>클론 코딩(a조 서울아산병원) 수정본 - 02</title>
+  <link rel="stylesheet" href="styles/Asnapractice02.css">
 </head>
 <body>
-  
+  <!-- 기존에 하던 작업말고도 추가 -->
+  <!-- 레이아웃 기준으로 진행 div로 틀만 구성해보기 -->
+    <!-- 상단 로그인 / 네비 -->
+    <div class="mainHeader">
+      <div class="selectbox">
+        <div class="login">
+          <a href="#">로그인</a>
+        </div>
+        <div class="join"><a href="https://www.amc.seoul.kr/asan/member/join/intro.do">회원가입</a>
+        </div>
+        <div class="my-chart">
+          <a href="#">나의차트</a>
+        </div>
+        <div class="hospitalguide">
+          <a href="https://www.amc.seoul.kr/asan/hospitalguide/lookaround/lookAround.do">병원둘러보기</a>
+        </div>
+        <div class="directions">
+          <a href="https://www.amc.seoul.kr/asan/hospitalguide/location/location.do">오시는길</a>
+        </div>
+        <div class="choose_Lang">
+          <select name="lang">
+            <option value="">Language</option>
+            <option value="">English</option>
+            <option value="">Chinese</option>
+            <option value="">Russian</option>
+            <option value="">Arabic</option>
+            <option value="">Mongolian</option>
+            <option value="">Japanese</option>
+          </select>
+        </div>
+        <div class="search">
+          <a href="#">
+            <img src="images/돋보기.png" alt="돋보기">
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- 네비게이션 로고 -->
+    <div class="logo">
+      <div id="img-logo">
+        <a href="">
+          <img src="images/아산메인이미지.png" alt="아산메인로고">
+        </a>
+      </div>
+      <div class="menu">
+        <a href="https://www.amc.seoul.kr/asan/staff/base/staffBaseInfoList.do">의료진/진료과</a>
+      </div>
+      <div class="menu">
+        <a href="https://www.amc.seoul.kr/asan/reservation/main.do">진료예약/안내</a>
+      </div>
+      <div class="menu">
+        <a href="https://www.amc.seoul.kr/asan/healthinfo/disease/diseaseSubmain.do">건강정보</a>
+      </div>
+      <div class="menu">
+        <a href="https://www.amc.seoul.kr/asan/issuepayguide/certificate/certificate.do">고객서비스</a>
+      </div>
+      <div class="menu">
+        <a href="https://www.amc.seoul.kr/asan/academy/event/eventList.do">의학교육</a>
+      </div>
+      <div class="menu">
+        <a href="https://www.amc.seoul.kr/asan/hospitalstory/realstory/realStoryList.do">병원이야기</a>
+      </div>
+      <div class="menu">
+        <a href="https://www.amc.seoul.kr/asan/hospitalinfo.review.founding.sp">병원소개</a>
+      </div>
+    </div>
+
+    <!-- bnr -->
+    <div class="bnr"></div>
+
+    <!-- 검색영역 -->
+    <div class="search01">
+      <div class="search01-1">
+        <label for="input-search">통합검색</label>
+        <input type="search" placeholder="     검색어를 입력해주세요." id="input-search">
+      </div>
+    </div>
+
+    <!-- 메인 -->
+    <div class="main">
+      <div class="main-header">
+        <h1>주요 서비스</h1>
+      </div>
+      <div class="serv01">
+        <div class="service0101" id="serv1-1">
+          <a href="https://www.amc.seoul.kr/asan/staff/base/staffBaseInfoList.do">의료진찾기</a>
+        </div>
+        <div class="service0101" id="serv1-2">
+          <a href="https://www.amc.seoul.kr/asan/departments/deptListTypeA.do">진료과 찾기</a>
+        </div>
+        <div class="service0101" id="serv1-3">
+          <a href="https://www.amc.seoul.kr/asan/reservation/main.do">진료예약</a>
+        </div>
+        <div class="service0101" id="serv1-4">
+          <a href="https://www.amc.seoul.kr/asan/reservation/main.do">첫방문 고객 예약 상담</a>
+        </div>
+        <div class="service0101" id="serv1-5">
+          <a href="#">나의차트</a>
+        </div>
+      </div>
+      <div class="serv02">
+        <div class="service0102" id="serv2-1">
+          <a href="https://www.amc.seoul.kr/asan/issuepayguide/certificate/certificate.do">증명서(진단서, 소견서 등) 출력</a>
+        </div>
+        <div class="service0102" id="serv2-2">
+          <a href="https://www.amc.seoul.kr/asan/issuepayguide/dutyrecordcopy/dutyRecordCopy.do">의무기록 및 영상CD 발급</a>
+        </div>
+        <div class="service0102" id="serv2-3">
+          <a href="https://www.amc.seoul.kr/asan/issuepayguide.dutyrecordcopy.dutyRecordCopy04.sp">동의서, 위임장 양식 다운로드</a>
+        </div>
+      </div>
+    </div>
 </body>
 </html>
