@@ -1,0 +1,26 @@
+#todo-app {
+  width: 300px;
+  margin: auto;
+}
+
+#todo-input {
+  padding: 10px;
+}
+
+#add-btn {
+  margin-top: 10px;
+}
+
+#todo-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+/* js 기능을 ㅏㅅ용하여 추가 될 할일 영역(todo-item) */
+.todo-item {
+  margin-top: 10px;
+}
+
+
+/* 
+com */
