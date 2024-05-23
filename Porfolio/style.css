@@ -319,19 +319,19 @@ img {
 }
 
 .skills__html {
-    width: 95%;
+    width: 90%;
 }
 
 .skills__css {
-    width: 85%;
+    width: 70%;
 }
 
 .skills__js {
-    width: 60%;
+    width: 70%;
 }
 
 .skills__ux {
-    width: 55%;
+    width: 70%;
 }
 
 .skills__img {
@@ -359,31 +359,39 @@ img {
 }
 
 /*  CONTACT */
-.contact__input {
-    width: 100%;
-    font-size: var(--normal-font-size);
-    font-weight: var(--font-semi);
-    padding: 1rem;
+/* ADDITIONAL STYLES FOR CONTACT SECTION */
+.contact__box {
+    background-color: #f9f9f9;
     border-radius: .5rem;
-    border: 2px solid var(--second-color);
-    outline: none;
-    margin-bottom: var(--mb-4);
-    transition: border .3s;
-    resize: none;
+    box-shadow: 0 4px 25px rgba(14, 36, 49, 0.15);
+    padding: 2rem;
+    text-align: center;
+    margin: 1rem;
 }
 
-.contact__input:focus {
-    border: 2px solid var(--first-color);
+.contact__box-title {
+    font-size: var(--h2-font-size);
+    color: var(--first-color);
+    margin-bottom: var(--mb-2);
 }
 
-.contact__button {
-    display: block;
-    border: none;
-    outline: none;
+.contact__box-link {
     font-size: var(--normal-font-size);
-    cursor: pointer;
-    margin-left: auto;
+    color: var(--second-color);
+    text-decoration: none;
+    font-weight: var(--font-semi);
 }
+
+.contact__box-link:hover {
+    color: var(--first-color);
+}
+
+.contact__box-info {
+    font-size: var(--normal-font-size);
+    color: var(--second-color);
+    font-weight: var(--font-semi);
+}
+
 
 /*  FOOTER */
 .footer {
