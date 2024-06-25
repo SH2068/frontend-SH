@@ -1,10 +1,10 @@
 /* 메뉴 보여주기 */ 
-const showMenu = (toggleId, navId) =>{
+const showMenu = (toggleId, navId) => {
     const toggle = document.getElementById(toggleId),
     nav = document.getElementById(navId)
 
     if(toggle && nav){
-        toggle.addEventListener('click', ()=>{
+        toggle.addEventListener('click', () => {
             nav.classList.toggle('show')
         })
     }
@@ -30,7 +30,7 @@ function scrollActive(){
     sections.forEach(current =>{
         const sectionHeight = current.offsetHeight
         const sectionTop = current.offsetTop - 50;
-        sectionId = current.getAttribute('id')
+        const sectionId = current.getAttribute('id')
 
         if(scrollY > sectionTop && scrollY <= sectionTop + sectionHeight){
             document.querySelector('.nav__menu a[href*=' + sectionId + ']').classList.add('active')
