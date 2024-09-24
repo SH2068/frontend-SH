@@ -56,9 +56,10 @@ sr.reveal('.skills__data, .work__img, .contact__input',{interval: 200});
 
 function openPopup(popupId) {
     document.getElementById(popupId).style.display = 'block';
+    document.body.style.overflow = 'hidden'; // 팝업 열리면 배경 스크롤 막기
 }
 
 function closePopup(popupId) {
     document.getElementById(popupId).style.display = 'none';
+    document.body.style.overflow = 'auto'; // 팝업 닫히면 배경 스크롤 다시 허용
 }
-
